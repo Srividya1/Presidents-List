@@ -1,0 +1,15 @@
+public static class Application{
+
+public String getAmericanPresidentByAnyYear(int year)
+{
+	//business logic to be written to retrieve the president //name on that particular year
+
+	String president = "George Washington";
+	boolean flag = false;	
+		if(year = 1979)
+		{
+			System.out.println("President Name");
+			flag = true;
+		}
+	return president;
+}
